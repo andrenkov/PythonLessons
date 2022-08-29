@@ -38,7 +38,7 @@ i = 0
 while i < 10000:
     i += 1
 
-print("Time ellapsed : ", time() - start)
+print("Time elapsed : ", time() - start)
 
 
 
