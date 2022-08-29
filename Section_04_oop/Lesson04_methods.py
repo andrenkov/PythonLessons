@@ -27,9 +27,9 @@ class AutoMob:
     def setSpeed(self, speed):
         self.speed = speed
 
-    def getTime(self, endp):
+    def getTime(self, endPoint):
         if self.speed != 0:
-            return self.p.range(endp) / self.speed
+            return self.p.range(endPoint) / self.speed
         else:
             return 0
 
